@@ -10,10 +10,13 @@ using Universe.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// --- Configure Kestrel for HTTP first (do this BEFORE Build) ---
+// --- Configure Kestrel to listen on the port provided by Render ---
+var portEnv = Environment.GetEnvironmentVariable("PORT");
+var port = !string.IsNullOrEmpty(portEnv) ? int.Parse(portEnv) : 5086;
+
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(5086); // HTTP on port 5086
+    options.ListenAnyIP(port);
 });
 
 // Add DbContext
