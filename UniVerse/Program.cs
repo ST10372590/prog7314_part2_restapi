@@ -10,9 +10,14 @@ using Universe.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// --- Configure Kestrel to listen on the port provided by Render ---
 var portEnv = Environment.GetEnvironmentVariable("PORT");
-var port = !string.IsNullOrEmpty(portEnv) ? int.Parse(portEnv) : 5086;
+
+if (string.IsNullOrEmpty(portEnv))
+{
+    throw new Exception("PORT environment variable is not set. This app must listen on the port provided by Render.");
+}
+
+var port = int.Parse(portEnv);
 
 builder.WebHost.ConfigureKestrel(options =>
 {
