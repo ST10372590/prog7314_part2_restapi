@@ -17,7 +17,7 @@ WORKDIR /app
 
 COPY --from=build /app/out .
 
-EXPOSE 5000
-ENV ASPNETCORE_URLS=http://+:5000
+EXPOSE 5086
+ENV ASPNETCORE_URLS=http://+:%PORT%
 
 ENTRYPOINT ["dotnet", "UniVerse.dll"]
