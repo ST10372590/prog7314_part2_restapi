@@ -1,12 +1,11 @@
 # UniVerse API  
 
-<p align="center">
-  <img src="https://github.com/ST10372590/prog7314_part2_restapi/blob/master/Universe_API_Logo.png" width="200" />
-</p>
-
 A modern, scalable, and production-ready **.NET 9 Web API** powering the UniVerse mobile and web applications.  
 This API is deployed on **Render**, uses **PostgreSQL**, supports **JWT authentication**, **Google login**, **file uploads**, **course/assessment management**, **offline caching**, and more.
 
+<p align="center">
+  <img src="https://github.com/ST10372590/prog7314_part2_restapi/blob/master/Universe_API_Logo.png" width="400" />
+</p>
 ---
 
 ## Table of Contents  
