@@ -104,6 +104,8 @@ UniVerse/
     - Required Fields: ModuleId must be provided
     - Response: Created announcement object
 
+---
+
 ### 📝 Assessments Controller
 
 - All assessment endpoints require authentication
@@ -161,6 +163,8 @@ All endpoints return JSON responses with appropriate HTTP status codes:
 - 404 Not Found - Resource not found
 - 500 Internal Server Error - Server-side error
 
+---
+
 ### 📅 Calendar Controller
 
 All calendar endpoints require authentication
@@ -201,6 +205,8 @@ All calendar endpoints require authentication
     - Parameters: id (string) - The event identifier to delete
     - Response: Success message
 
+---
+
 ### 🎓 Courses Controller
 
 - **Get All Courses**
@@ -235,6 +241,8 @@ All calendar endpoints require authentication
     - Description: Retrieves all courses the authenticated student is enrolled in
     - Authentication: Required (Student role)
     - Response: Array of enrolled course objects with complete details
+
+---
 
 ### 📁 Files Controller
 
@@ -283,6 +291,8 @@ All calendar endpoints require authentication
 - Calendar Events: Include title, type, start/end times, color coding, description
 - Courses: Include modules, assessments, lecturer information, dates
 - Files: Include uploader information, file metadata
+
+---
 
 ### 🎮 Gamification Controller
 All gamification endpoints require authentication
@@ -333,6 +343,8 @@ All gamification endpoints require authentication
     - rewardId (integer) - The reward identifier to redeem
     - Response: RedeemResponseDto with success status and updated stats
 
+---
+
 ### 💬 Messages Controller
   - **Get User Messages**
     - Endpoint: GET /messages/{userId}
@@ -365,6 +377,8 @@ All gamification endpoints require authentication
   - Parameters: id (integer) - The message identifier
   - Response: Success message
 
+---
+
 ### 📚 Modules Controller
 All module endpoints require authentication
 
@@ -395,6 +409,8 @@ All module endpoints require authentication
     - Parameters: courseId (string) - The course identifier
     - Response: Array of ModuleDto objects
 
+---
+
 ### 🔔 Notifications Controller
 
 - **Get All Notifications**
@@ -409,6 +425,8 @@ All module endpoints require authentication
     - Authentication: Required (Lecturer role)
     - Body: Notification object (JSON)
     - Response: Success message
+
+---
 
 ### 🏆 Gamification Features
 
@@ -450,6 +468,8 @@ All endpoints return JSON responses with appropriate HTTP status codes:
   - 403 Forbidden - Insufficient permissions
   - 404 Not Found - Resource not found
   - 500 Internal Server Error - Server-side error
+
+---
 
 ## 🔑 Environment Variables
 
