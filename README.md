@@ -71,13 +71,21 @@ The API follows **REST best practices**, includes **Swagger documentation**, and
 
 UniVerse/
 ├── Controllers/ # All API route controllers
+
 ├── Data/ # DbContext & configuration
+
 ├── Models/ # Entities & DTOs
+
 ├── Migrations/ # EF Core migrations
+
 ├── Services/ # External + internal service classes
+
 ├── wwwroot/uploads/ # Folder where files are stored
+
 ├── Program.cs # Application startup
+
 ├── appsettings.json
+
 └── Dockerfile # Builds the app container
 
 ---
