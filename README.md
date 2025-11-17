@@ -70,6 +70,7 @@ The API follows **REST best practices**, includes **Swagger documentation**, and
 ## 📁 Project Structure 
 
 UniVerse/
+
 ├── Controllers/ # All API route controllers
 
 ├── Data/ # DbContext & configuration
