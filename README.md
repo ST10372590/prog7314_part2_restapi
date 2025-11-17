@@ -1,7 +1,7 @@
 # UniVerse API  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/logo.png" width="200" />
+  <img src="https://github.com/ST10372590/prog7314_part2_restapi/blob/master/Universe_API_Logo.png" width="200" />
 </p>
 
 A modern, scalable, and production-ready **.NET 9 Web API** powering the UniVerse mobile and web applications.  
