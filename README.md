@@ -1,4 +1,9 @@
 # UniVerse API  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/logo.png" width="200" />
+</p>
+
 A modern, scalable, and production-ready **.NET 9 Web API** powering the UniVerse mobile and web applications.  
 This API is deployed on **Render**, uses **PostgreSQL**, supports **JWT authentication**, **Google login**, **file uploads**, **course/assessment management**, **offline caching**, and more.
 
