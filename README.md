@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ST10372590/prog7314_part2_restapi/blob/master/Universe_API_Logo.png" width="400" />
+  <img src="https://github.com/ST10372590/prog7314_part2_restapi/blob/master/Universe_API_Logo.png" width="200" />
 </p>
 
 # UniVerse API  
